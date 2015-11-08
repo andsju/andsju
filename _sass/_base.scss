@@ -25,6 +25,7 @@ body {
     background-size: $background-size;
     background-position: $background-position;
     -webkit-text-size-adjust: 100%;
+    overflow-y: scroll;
 }
 
 
