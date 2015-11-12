@@ -1,8 +1,19 @@
-<ul>
+<h2>
+    Content Management Systems
+</h2>
+
+<div class="misc_list">
+
     {% for cms in site.data.content_management_systems %}
-    <li>
-        {{ cms.name }}
-        <img src="img/{{ cms.img }}">
-    </li>
+
+        <div class="misc_item cms">
+            <h3>{{ cms.name }}</h3>
+            <a href="http://{{ cms.url}}" target="_blank">
+                <img src="../img/{{ cms.img }}">
+            </a>
+        </div>
+
+
     {% endfor %}
-</ul>
+
+</div>

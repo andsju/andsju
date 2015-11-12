@@ -226,6 +226,13 @@ a.site-title {
 
 }
 
+.page-content-no-sidebar {
+    padding: $spacing-unit;
+    float: left;
+    width: 100%;
+}
+
+
 .page-heading {
     font-size: 20px;
 }
@@ -294,4 +301,48 @@ a.site-title {
             font-size: 18px;
         }
     }
+}
+
+/**
+ * cms items
+ */
+
+.misc_list {
+    display: -ms-flex; display: -webkit-flex; display: flex;
+    @extend %clearfix;
+
+}
+
+.misc_item {
+    float: left;
+    padding:10px;
+    -webkit-flex: 1;
+    flex:1;
+    align-items: stretch;
+    border: 1px solid grey;
+    margin-left: 10px;
+}
+
+.misc_item h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.cms img {
+    width: 100%;
+    height: auto;
+}
+
+.tools img, .browsers img {
+    height: 60px;
+    width: auto;
+}
+
+
+.cms {
+
+}
+
+.tools {
+
 }

@@ -1,0 +1,19 @@
+<h2>
+    Browsers
+</h2>
+
+<div class="misc_list">
+
+    {% for browser in site.data.browsers %}
+
+        <div class="misc_item browsers">
+            <h3>{{ browser.name }}</h3>
+            <a href="http://{{ browser.url}}" target="_blank">
+                <img src="../img/{{ browser.img }}">
+            </a>
+        </div>
+
+
+    {% endfor %}
+
+</div>

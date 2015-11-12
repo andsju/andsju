@@ -1,0 +1,20 @@
+<h2>
+    Tools
+</h2>
+
+<div class="misc_list">
+
+    {% for tool in site.data.tools %}
+
+
+    <div class="misc_item tools">
+        <h3>{{ tool.name }}</h3>
+        <a href="http://{{ cms.url}}" target="_blank">
+            <img src="../img/{{ tool.img }}">
+        </a>
+    </div>
+
+
+    {% endfor %}
+
+</div>

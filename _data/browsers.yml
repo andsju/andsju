@@ -1,0 +1,24 @@
+-   name: Safari
+    url: apple.com/se/safari
+    img: safari.jpg
+    description: Editor som funkar
+
+-   name: Lynx
+    url: lynx.invisible-island.net
+    img: lynx.png
+    description: Oldest working browser
+
+-   name: Mozilla Firefox
+    url: www.mozilla.org
+    img: firefox.jpg
+    description: Nice
+
+-   name: Chrome
+    url: google.se/chrome/
+    img: chrome.jpg
+    description: Google dominans
+
+-   name: Mosaic
+    url: ftp.ncsa.illinois.edu/Web/Mosaic/
+    img: mosaic.png
+    description: Bilder funkar

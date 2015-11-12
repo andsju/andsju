@@ -1,0 +1,24 @@
+-   name: Notepad++
+    url: notepad-plus-plus.org/
+    img: notepad++.jpg
+    description: Editor som funkar
+
+-   name: xampp
+    url: apachefriends.org/index.html
+    img: xampp.png
+    description: Populär utvecklingsmiljö
+
+-   name: f.lux
+    url: justgetflux.com/
+    img: flux.png
+    description: Vilsamt för ögonen | borde ta en paus
+
+-   name: MySQL
+    url: mysql.com
+    img: mysql.png
+    description: Mumma
+
+-   name: VLC media player
+    url: videolan.org/vlc
+    img: vlc.jpg
+    description: The media player
