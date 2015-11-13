@@ -319,11 +319,11 @@ a.site-title {
     -webkit-flex: 1;
     flex:1;
     align-items: stretch;
-    border: 1px solid grey;
-    margin-left: 10px;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
 }
 
-.misc_item h3 {
+.misc_item h4 {
     margin: 0;
     padding: 0;
 }
@@ -338,11 +338,7 @@ a.site-title {
     width: auto;
 }
 
-
-.cms {
-
-}
-
-.tools {
-
+.misc_item_descriptiion {
+    font-size: 0.9em;
+    color: #000;
 }

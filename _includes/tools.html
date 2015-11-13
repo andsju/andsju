@@ -4,13 +4,13 @@
 
 <div class="misc_list">
 
-    {% for tool in site.data.tools %}
-
+    {% for item in site.data.tools %}
 
     <div class="misc_item tools">
-        <h3>{{ tool.name }}</h3>
-        <a href="http://{{ cms.url}}" target="_blank">
-            <img src="../img/{{ tool.img }}">
+        <h4>{{ item.name }}</h4>
+        <a href="http://{{ item.url}}" target="_blank">
+            <img src="../img/{{ item.img }}">
+            <div class="misc_item_descriptiion">{{ item.description }}</div>
         </a>
     </div>
 
