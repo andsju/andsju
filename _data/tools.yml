@@ -11,14 +11,14 @@
 -   name: f.lux
     url: justgetflux.com/
     img: flux.png
-    description: Vilsamt för ögonen | borde ta en paus
+    description: Vilsamt för ögonen
 
 -   name: MySQL
     url: mysql.com
     img: mysql.png
-    description: Mumma
+    description: Plus i kanten
 
 -   name: VLC media player
     url: videolan.org/vlc
     img: vlc.jpg
-    description: The media player
+    description: Media playern

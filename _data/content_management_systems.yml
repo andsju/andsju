@@ -1,19 +1,19 @@
 -   name: Drupal
     url: drupal.org
     img: drupal.png
-    description: Muduluppbyggt baserat på php
+    description: ...
 
 -   name: Wordpress
     url: wordpress.org
     img: wordpress.png
-    description: Populärt alternativ...
+    description: ...
 
 -   name: Joomla
     url: joomla.com
     img: joomla.png
-    description: Ett system
+    description: ...
 
 -   name: MODX
     url: modx.org
     img: modx.png
-    description: Populärt alternativ...
+    description: ...

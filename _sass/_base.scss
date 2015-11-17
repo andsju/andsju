@@ -55,6 +55,15 @@ img.right {
     margin: 10px 0 10px 10px;
 }
 
+img.left {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+img.thumb {
+    width: 200px;
+    height: auto;
+}
 
 /**
  * Figures

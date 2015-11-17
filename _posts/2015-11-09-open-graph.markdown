@@ -26,6 +26,6 @@ Protokollet beygger på att ange speciell information i meta-taggar. Protokollet
 <meta property="og:title" content="{{ page.title }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ site.url }}" />
-<meta property="og:image" content="{{ site.url }}/img/andsju.jpg" />
+<meta property="og:image" content="{{ site.url }}/img/andsju-vector.png" />
 {% endhighlight %}
 
