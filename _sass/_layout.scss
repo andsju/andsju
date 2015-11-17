@@ -156,6 +156,12 @@ a.site-title {
 .social-media-list {
     list-style: none;
     margin-left: 0;
+
+}
+
+.social-media-list li {
+    float:left;
+    margin-left: 20px;
 }
 
 .footer-col-wrapper {
@@ -242,7 +248,7 @@ a.site-title {
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: 4px;
     }
 }
 
@@ -253,7 +259,6 @@ a.site-title {
 
 .post-link {
     display: block;
-    font-size: 24px;
 }
 
 
@@ -341,4 +346,16 @@ a.site-title {
 .misc_item_descriptiion {
     font-size: 0.9em;
     color: #000;
+}
+
+.code {
+    display:block;
+    background: yellow;
+    padding:10px;
+    margin: 10px;
+}
+
+img.thumb {
+    width: 220px;
+    height: auto;
 }
