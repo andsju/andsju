@@ -1,6 +1,6 @@
 # Site settings
-title: internet med versalt I
-email: your-email@domain.com
+title: Internet med versalt I
+email: anders.sjunnesson@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Tankar om webben...
 baseurl: "" # the subpath of your site, e.g. /blog/
