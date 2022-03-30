@@ -1,2 +1,2 @@
-## Oki
+*Oki*
 {{ site.description }}
