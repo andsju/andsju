@@ -1,4 +1,5 @@
 ---
+# YAML settings
 layout: panorama
 title: Om test
 ---
