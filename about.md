@@ -23,5 +23,5 @@ Minns ett lyckat försök i mitten av 90-talet att "skräddarsy" en webbaserad g
 
 Har diverse egna programmeringsprojekt när tiden infinner sig. Bland projekten finns Storiesaround, TunesToPlay, Collaborative feeds och MalusDomestica.
 
-Saknar webben som den såg ut innan stora sociala medieplattformar tog över. 
+Saknar webben som den såg ut innan stora sociala medieplattformar tog över.  
 Uppskattar webbsidor som skiljer sig från mängden.
