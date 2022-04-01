@@ -3,7 +3,7 @@ layout: panorama
 title: Om
 permalink: /about/
 ---
-<img src="../img/andsju.jpg" class="right">
+<img src="/img/andsju.jpg" class="right">
 
 När jag gick ut Medietekniklinjen i Kalmar 1989 var mitt sikte inställt på film- och videoproduktion.
 Samtidgt så hade en del forskare tankar på ett globalt hypertextprojekt vid CERN. Det kallades för <b>World Wide Web</b>.
@@ -16,7 +16,7 @@ Jag halkade in i webbvärlden, och har kodat webbsidor och utvecklat webbapplika
 
 ## Lite mer...
 
-<img src="/img/andsju-vector.png" class="thumb left" />
+<img src="/img/andsju-vector.png" class="thumb left">
 
 Minns ett lyckat försök i mitten av 90-talet att "skräddarsy" en webbaserad gästbok genom att editera ett CGI script i form av exe-fil i notepad ... 
 **done that** ✓
