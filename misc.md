@@ -3,9 +3,8 @@ layout: panorama
 title: Misc
 permalink: /misc/
 ---
-<p>
-    Miscellaneous web / computer related (testing jeykyll _data)
-</p>
+
+Miscellaneous web / computer related (testing jeykyll _data)
 
 {% include cms.html %}
 
