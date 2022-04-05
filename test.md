@@ -15,3 +15,5 @@ layout: panorama
 
 *Oki*
 {{ site.description }}
+
+{% include cms.html %}
