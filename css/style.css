@@ -170,6 +170,13 @@ aside {
     margin: 0 0 1rem 0;
 }
 
+.post-list a {
+    text-decoration: none;
+}
+
+.post-list a:hover {
+    text-decoration: underline;
+}
 
 /**
  * Posts
