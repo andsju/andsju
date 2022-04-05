@@ -8,6 +8,7 @@
 
 body {
     background-color: whitesmoke;
+    font-family: system-ui;
 }
 
 
@@ -17,7 +18,7 @@ div#page {
     width: 100%;
     margin: 0 auto;
     background-color: #FFF;
-    box-shadow: 0 1rem #999
+    box-shadow: 0 0 1rem #999
 }
 
 
@@ -38,6 +39,9 @@ div.site-center{
     background: #B80000;
     border-bottom: 3px solid #FFF;
     text-align: center;
+    width: fit-content;
+    padding: 0 1rem;
+    margin: 0 auto;
 }
 
 a.site-title {
