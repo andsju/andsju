@@ -104,6 +104,19 @@ a.site-title {
 /**
  * Page content
  */
+
+main {
+    flex: 4;
+    /* float: left; */
+    /* width: 67%; */
+    border-right: 8px double #B80000;
+}
+
+aside {
+    flex: 1;
+    min-width: 240px;
+}
+
 .page-content {
     float: left;
     width: 67%;
