@@ -56,7 +56,7 @@ a.site-title {
 
 .site-nav ul {
     list-style: none;
-    margin: -2em 0 0 0;
+    margin: -1.5em 0 0 0;
     padding: 0;
 }
 
@@ -65,9 +65,7 @@ a.site-title {
     background: #D80000;
     border-top: 1px solid #FFF;
     padding: 0 1rem;
-    line-height: 4rem;
-    /* margin: 0 10px; */
-    
+    margin:0 1rem;
 }
 
 
