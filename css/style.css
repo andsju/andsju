@@ -10,6 +10,7 @@
 div#page {
     max-width: 1280px;
     width: 100%;
+    margin: 0 auto;
 }
 
 
@@ -21,6 +22,7 @@ div.wrapper {
 
 .site-header {
     min-height: 350px;
+    background-image: url('/img/header.jpg');
     margin: 0 auto;
 }
 
