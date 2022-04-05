@@ -233,3 +233,7 @@ aside {
     padding:10px;
     margin: 10px;
 }
+
+img.right {
+    margin:0 1rem
+}
