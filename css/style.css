@@ -64,10 +64,9 @@ a.site-title {
     float:left;
     background: #D80000;
     border-top: 1px solid #FFF;
-    border-left: 1px solid var(--main-bg-color);
-    border-right: 1px solid var(--main-bg-color);
-    padding: 0 10px;
-    margin: 0 10px;
+    padding: 0 1rem;
+    line-height: 4rem;
+    /* margin: 0 10px; */
     
 }
 
@@ -79,7 +78,6 @@ a.site-title {
 .site-nav ul li a {
     color: #fff;
     font-family: 'Rock Salt', cursive;
-    font-size: 1em;
     display: block;
     text-decoration: none;
 }
