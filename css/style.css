@@ -20,10 +20,11 @@ div.wrapper {
 }
 
 
-background-image: url('/img/header.jpg');
+
 .site-header {
     min-height: 350px;
     margin: 0 auto;
+    background-image: url('/img/header.jpg');
 }
 
 div.site-center{
@@ -56,6 +57,7 @@ a.site-title {
     border-right: 1px solid var(--main-bg-color);
     padding: 0 10px;
     margin: 0 10px;
+    text-decoration: none;
 }
 
 
