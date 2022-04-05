@@ -237,3 +237,8 @@ aside {
 img.right {
     margin:0 1rem
 }
+
+img.thumb {
+    width: 32px;
+    height: auto;
+}
