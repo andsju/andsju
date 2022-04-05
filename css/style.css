@@ -37,7 +37,7 @@ div.wrapper {
 
 div.site-center{
     background: #B80000;
-    border-bottom: 3px solid #FFF;
+    box-shadow: 0 0 0.5rem #fff;
     text-align: center;
     width: fit-content;
     padding: 0 1rem;
@@ -64,7 +64,7 @@ a.site-title {
 .site-nav ul li {
     float:left;
     background: #D80000;
-    border-top: 1px solid #FFF;
+    box-shadow: 0 0 0.5rem #fff;
     padding: 0 1rem;
     margin:0 1rem;
 }
