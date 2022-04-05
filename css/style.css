@@ -120,7 +120,8 @@ a.site-title {
 main {
     flex: 3;
     border-right: 8px double #B80000;
-    margin: 1rem;
+    padding: 1rem;
+    margin: 1rem 0
 }
 
 aside {
