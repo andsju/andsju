@@ -20,9 +20,9 @@ div.wrapper {
 }
 
 
+background-image: url('/img/header.jpg');
 .site-header {
     min-height: 350px;
-    background-image: url('/img/header.jpg');
     margin: 0 auto;
 }
 

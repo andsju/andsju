@@ -5,21 +5,25 @@
 
   <body>
 
+
+    <div id="page">
+
     {% include header.html %}
 
-    <div class="wrapper">
-
-        {% include navigation_top.html %}
+    {% include navigation_top.html %}
 
 
-    </div>
+    <!-- <div class="wrapper"> -->
+
+    <!-- </div> -->
 
     <div class="wrapper">
 
       <main>{{ content }}</main>
 
       <aside>{% include sidebar.html %}</aside>
-        <!-- <div class="page-content"> -->
+
+      <!-- <div class="page-content"> -->
 
             <!-- {{ content }} -->
 
@@ -34,12 +38,14 @@
 
     </div>
 
-    <div class="wrapper">
+    <!-- <div class="wrapper"> -->
 
     {% include footer.html %}
 
-    </div>
+    <!-- </div> -->
 
+  </div>
+  
   </body>
 
 </html>
