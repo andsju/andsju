@@ -118,9 +118,7 @@ a.site-title {
  */
 
 main {
-    flex: 4;
-    /* float: left; */
-    /* width: 67%; */
+    flex: 3;
     border-right: 8px double #B80000;
     margin: 1rem;
 }
