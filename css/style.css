@@ -48,6 +48,7 @@ a.site-title {
     font-size: 2em;
     font-family: 'Rock Salt', cursive;
     color: whitesmoke;
+    text-decoration: none;
 }
 
 .site-nav {
