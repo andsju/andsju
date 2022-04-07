@@ -1,41 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html prefix="og: http://ogp.me/ns#">
+  {% include head.html %}
 
-{% include head.html %}
+  <body>
+    <div id="page">
+      {% include header.html %} 
+      {% include navigation_top.html %}
 
-<body>
+      <div class="wrapper">
+        <main>{{ content }}</main>
+      </div>
 
-{% include header.html %}
-
-<div class="wrapper">
-
-    {% include navigation_top.html %}
-
-
-</div>
-
-<div class="wrapper">
-
-    <div class="page-content-no-sidebar ">
-
-        {{ content }}
-
+      {% include footer.html %}
     </div>
-
-
-</div>
-
-<div class="wrapper">
-
-
-</div>
-
-<div class="wrapper">
-
-    {% include footer.html %}
-
-</div>
-
-</body>
-
+  </body>
 </html>
