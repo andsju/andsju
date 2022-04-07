@@ -9,4 +9,6 @@ En tid då TCP/IP inte var ett givet protokoll, när sökresultat ofta visade "N
 
 Det var då det. Det har hänt lite sen Mosaic gjorde att webben kunde visa grafik, Netscape Navigator var den bästa webbläsaren och googla blev ett begrepp.
 
+Här delar jag några tankar kring kod, applikationer och prorammering.
+
 *Anders*
