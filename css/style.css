@@ -116,6 +116,13 @@ a.site-title {
 .footer-col {
     float: left;
 }
+
+footer span.icon svg {
+    width: 1.5rem;
+    height: auto;
+}
+
+
 /**
  * Page content
  */
