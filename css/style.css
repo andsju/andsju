@@ -9,6 +9,7 @@
 body {
     background-color: whitesmoke;
     font-family: system-ui;
+    overflow: scroll;
 }
 
 
