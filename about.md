@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /about/
+permalink: /aboutit/
 ---
 
 <img src="/img/andsju.jpg" class="right">
