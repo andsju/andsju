@@ -1,5 +1,5 @@
 ---
-layout: panorama
+layout: default
 title: Om
 permalink: /about/
 ---
