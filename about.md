@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Om
 permalink: /about/
 ---
+
 <img src="/img/andsju.jpg" class="right">
 
 Okidoki
