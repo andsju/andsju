@@ -19,7 +19,7 @@ Jag halkade in i webbvärlden, och har kodat webbsidor och utvecklat webbapplika
 
 ## Lite mer...
 
-<img src="/img/andsju-vector.png" class="thumb left">
+<img src="/img/andsju-vector.png" class="left">
 
 Minns ett lyckat försök i mitten av 90-talet att "skräddarsy" en webbaserad gästbok genom att editera ett CGI script i form av exe-fil i notepad ... 
 **done that** ✓
