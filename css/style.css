@@ -269,4 +269,6 @@ img.thumb {
 }
 p::first-letter {
     initial-letter: 2;
+    font-family: 'Nanum Brush Script';
+    margin-right: 0.5rem;
 }
