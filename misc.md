@@ -6,7 +6,7 @@ id: 3
 ---
 
 
-# Misc (from 2015)
+# Misc (2015)
 
 {% include cms.html %}
 
