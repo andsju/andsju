@@ -4,7 +4,8 @@ title: Misc
 permalink: /misc/
 ---
 
-Miscellaneous web / computer related (testing jeykyll _data)
+
+# Misc (from 2015)
 
 {% include cms.html %}
 

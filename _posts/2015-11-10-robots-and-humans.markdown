@@ -7,7 +7,7 @@ categories: web
 
 Lite info om textfiler som kan placeras i root-katalogen för en viss webbplats.
 
-#Robots.txt#
+### Robots.txt
 Filen robots.txt använder man för att för att ange hur sökrobotar / spindlar ska hantera en webplats.
 Det är enkla instruktioner som skrivs efter en speciell syntax. Målet kan ex vara att undvika att en
 spindel analyserar sidor i speciella kataloger, eller att berätta för en viss agent vad som ska undvikas.
@@ -20,7 +20,7 @@ Meddela alla sökspindlar att förhindra analys av katalogen `myfolder`
 
 `Disallow: /myfolder/`
 
-#Humans.txt#
+### Humans.txt
 En fil som kan placeras i root-katalogen och ge en viss merinformation till aktuell sajt.
 Initiativ-tagare till filen har som slogan "We Are People, Not Humans. Den här filen är lite kuriosa,
 men tanken är god  - att visa textinformation om en websajt. Kanske ASCI inspirerade humans.txt är lite trevligare...

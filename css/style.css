@@ -13,7 +13,6 @@ body {
 }
 
 
-
 div#page {
     max-width: 1280px;
     width: 100%;
@@ -25,18 +24,22 @@ div#page {
 
 div.wrapper {
     width: 100%;
-    display: flex;
 }
 
+
+h1, h2, h3 {
+    font-family: 'Rock Salt', cursive;
+    margin-top: 2rem;
+}
 
 
 .site-header {
     min-height: 350px;
     margin: 0 auto;
-    background-image: url('/img/header.jpg');
+    background-image: url('/images/header.jpg');
 }
 
-div.site-center{
+div.site-center {
     background: #B80000;
     box-shadow: 0 0 0.5rem #fff;
     text-align: center;
@@ -47,7 +50,6 @@ div.site-center{
 
 a.site-title {
     font-size: 4em;
-    font-family: 'Rock Salt', cursive;
     font-family: 'Nanum Brush Script', cursive;
     color: whitesmoke;
     text-decoration: none;
@@ -64,11 +66,11 @@ a.site-title {
 }
 
 .site-nav ul li {
-    float:left;
+    float: left;
     background: #D80000;
     box-shadow: 0 0 0.5rem #fff;
     padding: 0 1rem;
-    margin:0 1rem;
+    margin: 0 1rem;
 }
 
 
@@ -91,11 +93,15 @@ a.site-title {
 .site-footer {
     padding: 1rem;
     border-top: 1px solid var(--main-bg-color);
-    background-color: antiquewhite;
+    background-color: #B80000;
 }
 
 .footer-heading {
     font-size: 18px;
+}
+
+.site-footer, .site-footer a {
+    color: whitesmoke;
 }
 
 .contact-list,
@@ -106,7 +112,7 @@ a.site-title {
 }
 
 .social-media-list li {
-    float:left;
+    float: left;
     margin-left: 20px;
 }
 
@@ -194,32 +200,30 @@ aside {
 /**
  * Posts
  */
-.post-header {
-}
+.post-header {}
 
 .post-title {
-    font-size: 42px;
+    /* font-size: 42px; */
     letter-spacing: -1px;
-    line-height: 1;
+    /* line-height: 1; */
+    margin-top: 2rem
 }
 
-.post-content {
-
-}
+.post-content {}
 
 /**
  * cms items
  */
 
 .misc_list {
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .misc_item {
-    float: left;
-    padding:10px;
+    padding: 10px;
     -webkit-flex: 1;
-    flex:1;
+    flex: 1;
     align-items: stretch;
     border-left: 1px solid grey;
     border-top: 1px solid grey;
@@ -235,9 +239,9 @@ aside {
     height: auto;
 }
 
-.tools img, .browsers img {
-    height: 60px;
-    width: auto;
+.tools img,
+.browsers img {
+    max-width: 100px;
 }
 
 .misc_item_descriptiion {
@@ -246,20 +250,20 @@ aside {
 }
 
 .code {
-    display:block;
+    display: block;
     background: yellow;
-    padding:10px;
+    padding: 10px;
     margin: 10px;
 }
 
 img.right {
     float: right;
-    margin:0 0 0 1rem
+    margin: 0 0 0 1rem
 }
 
 img.left {
     float: left;
-    margin:0 1rem 0 0
+    margin: 0 1rem 0 0
 }
 
 
@@ -267,6 +271,16 @@ img.thumb {
     width: 32px;
     height: auto;
 }
-p::first-letter {
-    initial-letter: 2;
+
+@media (min-width: 640px) {
+
+    /* … */
+    div.wrapper {
+        display: flex;
+    }
+    div.misc_list {
+        display: flex;
+    }
 }
+
+img:not(.keep) {width: 100%;}

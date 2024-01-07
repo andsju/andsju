@@ -8,3 +8,10 @@ paginate: 3
 
 # Build settings
 markdown: kramdown
+
+gems:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji

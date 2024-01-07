@@ -1,2 +1,7 @@
-_site
-.sass-cache
+onbuild/
+Dockerfile
+docker-compose.yml
+LICENSE
+update.sh
+
+.sass-cache/

@@ -20,7 +20,7 @@ Några plus och minus...
 
 ***
 
-#plus#
+### +plus
 
 * Den största fördelen är att det går snabbt, webbservern har bara en uppgift – putta ut sidorna som efterfrågas.
 
@@ -32,7 +32,7 @@ Några plus och minus...
 
 ***
 
-#minus#
+### -minus
 
 * Vill du skapa en mer komplex struktur så kommer du snart se begränsningar
 
