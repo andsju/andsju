@@ -1,8 +1,8 @@
 ---
-# YAML settings
 layout: panorama
 title: Om
 permalink: /about/
+id: 2
 ---
 
 # Om ...

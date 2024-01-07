@@ -1,8 +1,11 @@
 ---
 layout: default
+title: Start
+permalink: /
+id: 1
 ---
 
-## Lite grann från ovan
+# Lite grann från ovan
 
 Det fanns en tid då internet skulle stavas med versalt I - Internet. Svenska datatermgruppen gav råd till alla som ville lära sig ny teknik innan sekelskiftet. En tid när Altavista var den givna söktjänsten, när känslan av förväntan infann sig då ljudet av att ett modem anslöt korrekt.
 
@@ -29,7 +32,7 @@ I menyn finns en del projekt som jag kodat de senaste 10 åren.
 
 ---
 
-2024-01-06
+2024-01-07
 
 *Vanilla coders have more fun!* 
 

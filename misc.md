@@ -2,6 +2,7 @@
 layout: panorama
 title: Misc
 permalink: /misc/
+id: 3
 ---
 
 

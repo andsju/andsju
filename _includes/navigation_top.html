@@ -1,7 +1,8 @@
 <nav class="site-nav">
     <ul>
-        <li><a class="page-link" href="/">Start</a></li>
-        {% for page in site.pages %}
+        <!-- <li><a class="page-link" href="/">Start</a></li> -->
+        {% assign sorted_pages = site.pages | sort:"id" %}
+        {% for page in sorted_pages %}
         {% if page.title %}
         <li>
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
