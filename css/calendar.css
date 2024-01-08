@@ -1,0 +1,65 @@
+[data-jscal] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+}
+
+
+[data-jscal] ul {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem;
+}
+
+
+[data-jscal="months"] {
+    display: flex;
+}
+
+
+[data-jscal="months"] ul {
+    display: initial;
+    flex:auto;
+    grid-template-columns: 1fr;
+}
+
+[data-jscal] li {
+    border: 1px solid;
+    padding: 0.1rem;
+    position: relative;
+}
+
+[data-jscal] .today {
+    background-color: cornflowerblue;
+}
+
+li.previous, li.next {
+    background-color: lightgray;
+}
+
+[data-jscal] .nav span {
+    font-size: 1rem;
+    color: navy;
+    font-weight: bold;
+}
+
+[data-jscal] .nav span.calendarInfo {
+    font-size: 1rem;
+    margin: 0 1rem
+}
+
+[data-jscal] .nav span:hover {
+    cursor: pointer;
+}
+.week {
+    font-size: 0.8rem;
+    position: absolute;
+    right: 0.1rem;
+    top: 0.1rem 
+}
+
+span.month {
+    position: absolute;
+    right: 0.1rem
+}
