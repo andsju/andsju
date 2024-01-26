@@ -7,7 +7,7 @@ id: 1
 
 # Lite grann från ovan
 
-Det fanns en tid då internet skulle stavas med versalt I - Internet. Svenska datatermgruppen gav råd till alla som ville lära sig ny teknik innan sekelskiftet. En tid när Altavista var den givna söktjänsten, när känslan av förväntan infann sig då ljudet av att ett modem anslöt korrekt.
+Det fanns en tid då internet skulle stavas med versalt I - Internet. En tid när Altavista var den givna söktjänsten, när känslan av förväntan infann sig då ljudet av att ett modem anslöt korrekt.
 
 En tid då TCP/IP inte var ett givet protokoll, när sökresultat ofta visade "No title" och det arbetades med hemsidor både här och där.
 
@@ -26,13 +26,13 @@ Tror att en del applikationer tydligt kommer informera användare om att det int
 - NAI (No AI)
 
 ...eller kanske programmerare innerst inne kommer medge... WAIJK 
-(Without AI ... just kidding)
+(Without AI ... Just Kidding)
 
 I menyn finns en del projekt som jag kodat de senaste 10 åren.
 
 ---
 
-2024-01-07
+2024-01-26
 
 *Vanilla coders have more fun!* 
 
