@@ -14,7 +14,7 @@ Jag lärde mig mycket under utvecklingsarbetet, och kan se på applikationen med
 
 Applikationen hanterar WYSIWYG editor - kommer med TinyMCE, har kalenderfunktionalitet och bildhantering och annat...  
 
-**Applikationens namn - Storiesaround - baseras till viss del på de sätt finns i systemet för att *puffa* fram sidor. Ett webbsystem som kan hänvisa till olika *stories*, där kortare sammanfattningar av artiklar (sidor) hanteras som puffar. En begrepp som används inom journalistsik, ursrpungligen inom tidningsvärlden.** 
+**Applikationens namn - Storiesaround - baseras till viss del på de sätt finns i systemet för att *puffa* fram sidor. Applikationen kan referera till olika *stories*, där kortare sammanfattningar av artiklar (sidor) hanteras som puffar.  Begreppet "puff" används inom journalistik, ursrpungligen inom tidningsvärlden.** 
 
 Möjligheter till att puffa stories
 
