@@ -25,8 +25,6 @@ En fil som kan placeras i root-katalogen och ge en viss merinformation till aktu
 Initiativ-tagare till filen har som slogan "We Are People, Not Humans. Den här filen är lite kuriosa,
 men tanken är god  - att visa textinformation om en websajt. Kanske ASCI inspirerade humans.txt är lite trevligare...
 
-`
-×º°°º× [ internet med versalt I ] ×º°°º×
-`
+[×º°°º× internet med versalt I ×º°°º×](/humans.txt)
 
-Kolla ex [Netflix](https://www.netflix.com/se/humans.txt) som har en ASCI inspirerad fil:
+Kolla ex [Netflix](https://www.netflix.com/se/humans.txt) som har en ASCI inspirerad fil.
