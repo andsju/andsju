@@ -7,6 +7,10 @@ categories: web
 
 Malus Domestica är en applikation för att sortbestämma äpplen. Beskrivningen av en äppelsort baseras på referenser som anges i applikationen. En rad olika egenskaper kan anges, bli sökbara och därmed presentera förslag på tänkbara sorter utifrån sökvillkor.
 
+Applikationen kodar jag på när tiden och lusten infinner sig. Som lärare i webbprogrammering brukar jag tipsa studerande om att programmera egna applikationer utifrån ett intresse. Ett sätt att lära sig koda - och då blir projektet något bra för egen utveckling. 
+
+Projektet påbörjades kring 2020. Det har gått en tid innan applikationen nu publicerats på en publik webbplats - som en applikation utan innehåll men med funktionalitet.   
+
 ![image](/../images/posts/malusdomestica-1.png)
 
 Applikationen är publicerad och min tanke är att lägga tid på att börja använda applikationen - lägga in äppelsorter, beskrivningar och referenser. Jag har ingen egentlig tidsplan för det arbetet. Ser det som ett längre projekt som kan komma bli en användbar webbsida för äppelintresserade personer och pomologer. Applikationen är i nuläget avsedd för äpplen, med med lite kodande skulle den kunna hantera andra fruktsorter.

@@ -35,8 +35,13 @@
 }
 
 li.previous, li.next {
-    background-color: lightgray;
+    background-color: #eee;
 }
+
+li.previous div, li.next div {
+    opacity: .2;
+}
+
 
 [data-jscal] .nav span {
     font-size: 1rem;
@@ -62,4 +67,8 @@ li.previous, li.next {
 span.month {
     position: absolute;
     right: 0.1rem
+}
+
+.holiday {
+    background-color: navajowhite;
 }

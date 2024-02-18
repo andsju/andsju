@@ -50,6 +50,18 @@ Date.prototype.addDays = function (n) {
     return this.setDate(this.getDate() + n);
 }
 
+/**
+ * add to prototype: daysInMonth
+ *
+ * @return {string} yyyy-mm-dd 
+ */
+Date.prototype.isoFormat = function () {
+    return this.toISOString().slice(0, 10);
+}
+
+
+
+
 
 /**
  * add to prototype: daysInMonth
@@ -68,9 +80,11 @@ Date.prototype.getWeekNumber = function () {
 
 
 const months = ["januari", "februari", "mars", "april", "maj", "juni", "juli", "augusti", "september", "oktober", "november", "december"];
+const monthsShort = ["jan", "feb", "mars", "apr", "maj", "juni", "juli", "aug", "sep", "okt", "nov", "dec"];
 const days = ["sö", "må", "ti", "on", "to", "fr", "lö"];
 const today = new Date().toLocaleDateString();
 const jsCalendars = document.querySelectorAll("[data-jscal]");
+
 
 
 /**
@@ -85,6 +99,7 @@ function getMonthInfo(d) {
     const firstDayOfMonth = new Date(y, m, 1).getDay();
     const lastDateOfMonth = new Date(y, m + 1, 0).getDate();
     const lastDayOfMonth = new Date(y, m, lastDateOfMonth).getDay();
+
     return {
         year: y,
         month: m,
@@ -104,6 +119,9 @@ function getMonthInfo(d) {
  * @return {HTMLElement} 
  */
 function renderDate(date, cl) {
+
+
+    
     let li = document.createElement("li");
 
     li.innerHTML = `
@@ -133,12 +151,30 @@ function renderDate(date, cl) {
  * @param {number} days
  * @return {Date} 
  */
-function addDays(date, days) {
+function addDaysToTime(date, days) {
     let newDate = new Date(date);
     newDate.setDate(newDate.getDate() + days);
 
     return newDate;
 }
+
+
+
+/**
+ * addDays
+ *
+ * @param {Date} date
+ * @param {number} days
+ * @return {Date} 
+ */
+function addDays(date, days) {
+    let newDate = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    newDate.setDate(newDate.getDate() + days);
+
+    return newDate;
+}
+
+
 
 
 /**
@@ -179,7 +215,7 @@ function renderWeek(date) {
  */
  function renderMonth(date) {
     if (date.getDate() === 1) {
-        return `${months[date.getMonth()]}`;
+        return `${monthsShort[date.getMonth()]}`;
     }
 
     return "";
@@ -285,6 +321,9 @@ function renderCalendarMonth(date, container, nav = true) {
     var d;
     var counter;
 
+    const holidays = getHolidays(date.getFullYear());
+
+
     let ul = container.querySelector("ul") || document.createElement("ul");
     ul.innerHTML = "";
     ul.className = "calendarMonth";
@@ -306,7 +345,17 @@ function renderCalendarMonth(date, container, nav = true) {
 
     while (dateInMonth <= currentMonth.lastDateOfMonth) {
         d = new Date(currentMonth.year, currentMonth.month, dateInMonth);
-        ul.appendChild(renderDate(d));
+
+        let cl = "";
+        for (let i = 0; i < holidays.length; i++) {
+            // console.log(toISO(d) == holidays[i].date);
+            if (toISO(d) == holidays[i].date) {
+                cl = holidays[i].holiday === true ? "holiday "+ holidays[i].title : holidays[i].title;
+            }
+        }
+
+        
+        ul.appendChild(renderDate(d, cl));
         dateInMonth++;
     }
 
@@ -533,13 +582,13 @@ jsCalendars.forEach((jsCalendar) => {
 
 
 
-let inputDate = document.getElementById("date");
-inputDate.addEventListener("change", function () {
-    let date = new Date(this.value);
-    initCalendar(date);
+// let inputDate = document.getElementById("date");
+// inputDate.addEventListener("change", function () {
+//     let date = new Date(this.value);
+//     initCalendar(date);
 
-    console.log("Easter date: ", easterDate(date.getUTCFullYear()));
-})
+//     console.log("Easter date: ", easterDate(date.getUTCFullYear()));
+// })
 
 
 
@@ -576,7 +625,60 @@ function easterDate(y) // Takes a given year (y) then returns Date object of Eas
     var l = i - j;
     var m = 3 + Math.floor((l + 40) / 44);
     var d = l + 28 - 31 * Math.floor(m / 4);
-    var z = new Date();
+    // var z = new Date();
+    var z = new Date(y, m - 1, d);
     z.setFullYear(y, m - 1, d);
     return z;
+}
+
+
+function getHolidays(year) {
+
+    // const date = new Date(year, m, d);
+    // const year = date.getFullYear();
+    const easter = easterDate(year);
+
+    const dates = [];
+
+    dates.push({date: toISO(addDays(easter, -6)), title: "Blåmåndagen", holiday: false});
+    dates.push({date: toISO(addDays(easter, -5)), title: "Fettisdagen", holiday: false});
+    dates.push({date: toISO(addDays(easter, -4)), title: "Askonsdagen", holiday: false});
+    dates.push({date: toISO(addDays(easter, -3)), title: "Skärtorsdag", holiday: false});
+    dates.push({date: toISO(addDays(easter, -2)), title: "Långfredag", holiday: true});
+    dates.push({date: toISO(addDays(easter, -1)), title: "Påskafton", holiday: false});
+    dates.push({date: toISO(easter), title: "Påskdagen", holiday: true});
+    dates.push({date: toISO(addDays(easter, 1)), title: "Annandag påsk", holiday: true});
+    dates.push({date: toISO(addDays(easter, 39)), title: "Kristi himmelfärdsdag", holiday: false});
+    dates.push({date: toISO(addDays(easter, 49)), title: "Pingstdagen", holiday: true});
+    dates.push({date: toISO(addDays(midSummer(year), -1 )), title: "Midsommarafton", holiday: false});
+    dates.push({date: toISO(midSummer(year)), title: "Midsommardagen", holiday: true});
+    dates.push({date: toISO(getAllaHelgonsDag(year)), title: "Alla Helgons dag", holiday: true});
+    dates.push({date: toISO(new Date(year, 0, 1)), title: "Nyårsdagen", holiday: true});
+    dates.push({date: toISO(new Date(year, 0, 5)), title: "Trettondagsafton", holiday: false});
+    dates.push({date: toISO(new Date(year, 0, 6)), title: "Trettondag jul", holiday: true});
+    dates.push({date: toISO(new Date(year, 3, 30)), title: "Valborgsmässoafton", holiday: false});
+    dates.push({date: toISO(new Date(year, 4, 1)), title: "Första maj", holiday: true});
+    dates.push({date: toISO(new Date(year, 5, 6)), title: "Sveriges nationaldag", holiday: true});
+    dates.push({date: toISO(new Date(year, 11, 24)), title: "Julafton", holiday: false});
+    dates.push({date: toISO(new Date(year, 11, 25)), title: "Juldagen", holiday: true});
+    dates.push({date: toISO(new Date(year, 11, 26)), title: "Annandag jul", holiday: true});
+    dates.push({date: toISO(new Date(year, 11, 26)), title: "Nyårsdagen", holiday: true});
+
+    return dates;
+}
+
+function midSummer(y) {
+    const dayOfWeek = new Date(y, 5, 20).getDay(); 
+    return new Date(y, 5, 20 + (6 - dayOfWeek));
+}
+
+function getAllaHelgonsDag(y) {
+    const lastDateInOctober = new Date(y, 9, 31); 
+    const dayOfWeek = lastDateInOctober.getDay();
+    return dayOfWeek === 6 ? lastDateInOctober : addDays(lastDateInOctober, 6 - dayOfWeek);
+}
+
+
+function toISO(d) {    
+    return d.toISOString().slice(0, 10);
 }
